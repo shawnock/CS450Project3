@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <ImageButton
+        android:id="@+id/image0"
+        android:src="@drawable/einstein"
+        android:layout_column="0"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:src="@drawable/einstein"
+        android:layout_column="1"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image2"
+        android:src="@drawable/einstein"
+        android:layout_column="2"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image3"
+        android:src="@drawable/einstein"
+        android:layout_column="3"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image4"
+        android:src="@drawable/einstein"
+        android:layout_column="0"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image5"
+        android:src="@drawable/einstein"
+        android:layout_column="1"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image6"
+        android:src="@drawable/einstein"
+        android:layout_column="2"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image7"
+        android:src="@drawable/einstein"
+        android:layout_column="3"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image8"
+        android:src="@drawable/einstein"
+        android:layout_column="0"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+
+    <ImageButton
+        android:id="@+id/image9"
+        android:src="@drawable/einstein"
+        android:layout_column="1"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image10"
+        android:src="@drawable/einstein"
+        android:layout_column="2"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image11"
+        android:src="@drawable/einstein"
+        android:layout_column="3"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image12"
+        android:src="@drawable/einstein"
+        android:layout_column="0"
+        android:layout_row="3"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image13"
+        android:src="@drawable/einstein"
+        android:layout_column="1"
+        android:layout_row="3"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image14"
+        android:src="@drawable/einstein"
+        android:layout_column="2"
+        android:layout_row="3"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/image15"
+        android:src="@drawable/einstein"
+        android:layout_column="3"
+        android:layout_row="3"
+        style="@style/image_style"/>
+
+</GridLayout>

@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/menu_background"
+    android:padding="@dimen/menu_padding"
+    tools:context="com.example.shawnocked.cs450project3.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/menu_marginBottom"
+        android:layout_gravity="center"
+        android:text="@string/twinsmatching"
+        android:textAlignment="center"
+        android:textSize="@dimen/menu_fontSize"
+        android:textColor="@color/colorRedRose" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_this_game"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_buttonMargin"
+        android:padding="@dimen/menu_buttonPadding"
+        android:text="@string/about"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/continue_button"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_buttonMargin"
+        android:padding="@dimen/menu_buttonPadding"
+        android:text="@string/button_continue"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newgame_button"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/menu_buttonMargin"
+        android:padding="@dimen/menu_buttonPadding"
+        android:text="@string/new_game" />
+
+</LinearLayout>

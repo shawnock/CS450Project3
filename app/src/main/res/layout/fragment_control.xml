@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/control_padding"
+    tools:context="com.example.shawnocked.cs450project3.ControlFragment">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/elevation_low"
+            android:drawableTop="@drawable/restart"
+            android:text="@string/restart"/>
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/elevation_low"
+            android:drawableTop="@drawable/home"
+            android:text="@string/home_menu"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_below="@id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:id="@+id/play_again_button"
+        android:visibility="gone"/>
+
+</RelativeLayout>

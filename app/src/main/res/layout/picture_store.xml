@@ -1,0 +1,98 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+        android:id="@+id/picture0"
+        android:src="@drawable/picture0"
+        android:layout_column="0"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture1"
+        android:src="@drawable/picture1"
+        android:layout_column="1"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture2"
+        android:src="@drawable/picture2"
+        android:layout_column="2"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture3"
+        android:src="@drawable/picture3"
+        android:layout_column="3"
+        android:layout_row="0"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture4"
+        android:src="@drawable/picture4"
+        android:layout_column="0"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture5"
+        android:src="@drawable/picture5"
+        android:layout_column="1"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture6"
+        android:src="@drawable/picture6"
+        android:layout_column="2"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture7"
+        android:src="@drawable/picture7"
+        android:layout_column="3"
+        android:layout_row="1"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture8"
+        android:src="@drawable/picture8"
+        android:layout_column="0"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+
+    <ImageButton
+        android:id="@+id/picture9"
+        android:src="@drawable/picture9"
+        android:layout_column="1"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture10"
+        android:src="@drawable/picture10"
+        android:layout_column="2"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture11"
+        android:src="@drawable/picture11"
+        android:layout_column="3"
+        android:layout_row="2"
+        style="@style/image_style"/>
+
+    <ImageButton
+        android:id="@+id/picture12"
+        android:src="@drawable/picture12"
+        android:layout_column="0"
+        android:layout_row="3"
+        style="@style/image_style"/>
+
+</FrameLayout>

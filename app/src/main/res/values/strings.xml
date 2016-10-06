@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CS450Project3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="twinsmatching">TwinsMatching</string>
+    <string name="button_continue">Continue</string>
+    <string name="new_game">New Game</string>
+    <string name="about">About</string>
+    <string name="home_menu">Home Menu</string>
+    <string name="restart">Restart</string>
+    <string name="ok_label">OK</string>
+     <string name="about_text">\
+Just a shitting game designed by a loser.\n\
+
+</string>
+    <string name="matching_pictures_check">Matching Pictures Check</string>
+    <string name="play_again">Play Again</string>
+</resources>
